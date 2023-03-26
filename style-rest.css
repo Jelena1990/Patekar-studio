@@ -1,0 +1,353 @@
+.kontakt-section,
+.massages-section,
+.gift-section,
+.about-section {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.about-section h2,
+.massages-section h2,
+.gift-section h2,
+.kontakt-section h2 {
+  color: #1a3520;
+  margin-left: 20%;
+  padding-top: 8%;
+  animation: moveInLeft 1s ease-out 0.2s;
+  animation-fill-mode: backwards;
+  font-style: italic;
+}
+.massages-section h2,
+.kontakt-section h2 {
+  color: rgba(255, 255, 255, 0.807);
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.kontakt-section {
+  background: url(assets/proba.jpg);
+  background-repeat: no-repeat;
+  height: 550px;
+}
+.massages-section {
+  background: url(assets/masaze1.jpg);
+}
+
+.gift-section {
+  background-image: url(assets/gift.jpg);
+  height: 400px;
+}
+.about-section {
+  background-image: url(assets/studio.jpg);
+  height: 500px;
+}
+.section-one h2 {
+  text-align: right;
+  margin-right: 50px;
+  padding-top: 80px;
+  color: #ffd43b;
+}
+.section-two {
+  width: 100%;
+  background-color: #1a3520;
+}
+
+.section-two h1,
+.section-three h1 {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-style: italic;
+  position: relative;
+}
+
+.section-two h1:before {
+  content: "";
+  display: block;
+  width: 180px;
+  height: 2px;
+  background: white;
+  left: 43%;
+  top: 40%;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.section-two img {
+  margin-bottom: -40px;
+  padding-top: 40px;
+}
+.section-two p {
+  text-align: center;
+}
+
+.google-map iframe {
+  height: 300px;
+  width: 40%;
+  margin-left: 50px;
+}
+
+.map-kontakt {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  width: 33%;
+}
+
+.form input,
+.form textarea {
+  width: 120%;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 70%;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0);
+}
+.form input::placeholder,
+.form textarea::placeholder {
+  color: wheat;
+}
+
+.btn--form {
+  border: none;
+  cursor: pointer;
+  background-color: #ffd43b;
+  color: #23482b;
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin-left: 100%;
+  margin-bottom: 15px;
+}
+
+.btn--form:hover {
+  background-color: white;
+  transition: 0.3s;
+}
+
+.stone {
+  position: absolute;
+  width: 25%;
+  top: 225%;
+  right: 1%;
+}
+
+.box {
+  transform: translateX(250%);
+  transition: transform 0.9s ease-in;
+}
+.box:nth-of-type(even) {
+  transform: translateX(-250%);
+}
+.box.show {
+  transform: translateX(0);
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.step-img-box:nth-of-type(odd) {
+  margin-bottom: 70px;
+}
+
+.step-img {
+  width: 70%;
+  border-radius: 5% 5% 5% 5%;
+}
+
+.step-description {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.heading-tertiary {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #ffd43b;
+  opacity: 0.7;
+  margin-bottom: 3.2rem;
+  text-align: center;
+  font-style: italic;
+  transition: all 0.3s ease-out;
+}
+
+.heading-tertiary:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+#btn {
+  margin-left: 40%;
+  margin-bottom: 30px;
+}
+
+#btn-about {
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.me-img {
+  width: 45%;
+  border-radius: 5%;
+  margin-bottom: -20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  color: white;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 1rem;
+  border-top: 1px solid white;
+}
+.footer div {
+  margin-top: 50px;
+}
+.footer-link {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#footer-logo {
+  width: 70%;
+}
+.contact-img {
+  width: 20px;
+  margin-right: 5px;
+}
+footer span {
+  display: inline-block;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.google-map iframe {
+  margin-left: 30%;
+}
+
+.kontakt-section {
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-section {
+    height: 200px;
+  }
+  .section-two h1:before {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+
+  .step-description {
+    font-size: 16px;
+  }
+
+  footer {
+    padding-top: 0;
+  }
+
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10%;
+  }
+
+  .footer p,
+  h4,
+  a {
+    font-size: 0.7rem;
+  }
+
+  .footer div {
+    font-size: 0.6rem;
+  }
+
+  .massages-section {
+    background-size: cover;
+    height: 200px;
+  }
+
+  .section-two img {
+    padding-top: 50px;
+  }
+
+  .heading-tertiary {
+    padding-top: 10%;
+  }
+
+  .gift-section {
+    height: 200px;
+  }
+
+  .kontakt-section {
+    background-size: cover;
+    height: 200px;
+  }
+
+  .google-map iframe {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .form {
+    width: 70%;
+  }
+
+  .form input,
+  .form textarea {
+    margin-left: 15%;
+  }
+
+  .stone {
+    display: none;
+  }
+}

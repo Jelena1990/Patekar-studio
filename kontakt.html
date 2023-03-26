@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link href="style-rest.css" rel="stylesheet" />
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <header>
+     
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="assets/logo.png"
+              alt="logo"
+              class="logo"
+             width="35%"
+        
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html"
+                >Početna</a
+              >
+              <a class="nav-link" href="o-nama.html">O Nama</a>
+              <a class="nav-link" href="vrstemasaze.html">Vrste Masaže</a>
+              <a class="nav-link" href="vauceri.html">Poklon Vaučeri</a>
+              <a class="nav-link" aria-current="page" href="#">Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="kontakt-section">
+        <h2>Kontakt</h2>
+      </section>
+      <section class="section-two">
+          <div class="flex">
+            <img
+              src="assets/lotus.png"
+              class="lotus-img"
+              alt="image of lotus flower"
+            />
+          </div>
+          <h1>Kontakt</h1>
+          <p>Za sve informacije, upite i rezervacije, slobodno nas kontaktirajte putem telefona<br/>
+             ili društvenih mreža. Radujemo se vašem dolasku!</p>
+          
+        <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.929464324624!2d21.89214861521725!3d43.315735982205105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0ae20a8c6c1%3A0xc79d4289da9aa700!2sObrenovi%C4%87eva%20124%2C%20Ni%C5%A1%2018000!5e0!3m2!1sen!2srs!4v1677694576664!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+   
+      </section>
+      <section class="section-three">
+        <h1>Zakažite termin</h1>
+        
+        <form class="form" method="POST" action="form.php">
+          <div>
+            <input
+              name="name"
+              id="full-name"
+              type="text"
+              placeholder="Ime Prezime"
+              required
+            />
+          </div>
+          <div>
+            <input
+              name="phone"
+              id="phone-number"
+              type="text"
+              placeholder="+381 653287914"
+              required
+            />
+          </div>
+          <div>
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="ime.prezime@mail.com"
+              required
+            />
+          </div>
+          <div>
+            <textarea name="poruka" id="poruka" placeholder="Vasa Poruka"></textarea>
+          </div>
+
+          <button class="btn--form" type="submit">Pošalji</button>
+        </form>
+        <div><img src="assets/stone.png" class="stone" alt="image of stone"/></div>
+      </section>
+      
+      <footer>
+        <div class="footer">
+          
+          <div class="footer-logo">
+            <a href="index.html"><img src="assets/logo.png" id="footer-logo" alt=logo width="70px"/></a>
+          </div>
+           
+            <div>
+              <h4>Radno vreme</h4>
+              <p>Pon - Ned | 10:00 - 20:00</p>
+            </div>
+            
+            <div>
+              <h4>Kontakt</h4>
+              <p><img src="assets/adress.png" class="contact-img" alt="adress-img"/>Obrenovićeva 124 3/4</p>
+              <p><img src="assets/telephone.png" class="contact-img"alt="phone-img"/><a href="tel:+381677425262">067/7425262</a></p>
+            </div>
+          
+            <div>
+              <h4>Pratite nas:</h4>
+              <a
+              href="https://www.instagram.com/patekar_studio/"
+              class="footer-link"
+              target="_blank"
+            ><img src="assets/instagram.png" class="contact-img"alt="instagram-img"/>Instagram</a>
+            <a
+            href="https://www.facebook.com/savetinutricioniste/"
+            class="footer-link"
+            target="_blank"
+          ><img src="assets/facebook.png" class="contact-img" alt="facebook-img"/>Facebook</a>
+    
+            </div>
+           
+            <div>All rights reserved by Studio Patekar</div>
+            <div>Powered by <a href="https://jelenavasilesku.com/" target="_blank">Jelena Vasilesku</a></div>
+       
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous">
+          </script>
+          <script src="script.js"></script>
+  </body>
+</html>

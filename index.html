@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+  <title>Patekar Studio</title>
+</head>
+
+<body>
+  <header>
+    <!-- navigacija -->
+    <nav class="navbar  navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="logo" class="logo" width="35%" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Početna</a>
+            <a class="nav-link" href="o-nama.html">O Nama</a>
+            <a class="nav-link" href="vrstemasaze.html">Vrste Masaže</a>
+            <a class="nav-link" href="vauceri.html">Poklon Vaučeri</a>
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- //////////////////////////////////////////////// -->
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="6000">
+          <img src="assets/slika1.jpeg" class="d-block w-100" alt="slika masaze">
+          <div class="carousel-caption">
+            <h2>Priuštite sebi užitak!</h2>
+            <a class="btn btn-outline-warning" id="btn-main" href="vrstemasaze.html" role="button">Saznajte više</a>
+            <a class="btn btn-outline-warning" id="btn-main2" href="kontakt.html" role="button">Rezervišite</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="assets/PROBAG.jpg" class="d-block w-100" alt="slika masaze">
+          <div class="carousel-caption caption-black">
+            <h2>Zakoračajte u svet relaxacije!</h2>
+          </div>
+        </div>
+        <!--  -->
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="assets/slika2.jpg" class="d-block w-100" alt="slika masaze">
+          <div class="carousel-caption caption-black">
+            <h2>Prepustite se!</h2>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="assets/slika3.jpg" class="d-block w-100" alt="slika masaze">
+          <div class="carousel-caption">
+            <h2>Okrepite dušu i telo</h2>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="section-1">
+      <div class="flex">
+        <img src="assets/lotus.png" class="lotus-img" alt="image of lotus flower" />
+      </div>
+      <h1>Dobrodošli</h1>
+      <p>
+        Dobrodošli u naš salon za masaže! Naš stručni tim terapeuta će se pobrinuti da se opustite<br />
+        i uživate u našim uslugama za opuštanje i revitalizaciju tela. Želimo vam ugodan boravak!
+      </p>
+      <a class="btn btn-outline-warning" id="btn" href="o-nama.html" role="button">Više o nama</a>
+    </section>
+    <section class="section-2">
+      <h4>Naše masaže</h4>
+
+      <div class="section-center projects-center">
+        <!-- masaza 1   u href staviti masaze.html-->
+        <a href="vrstemasaze.html" class="project-1" target="_blank">
+          <article class="project">
+            <img src="assets/relaxaciona.jpg" alt="slika masaze" class="project-img" />
+            <div class="project-info">
+              <h4>Relaxaciona masaža</h4>
+              <p>
+                smanjuje stres, poboljšava san, opušta mišiće,
+                i revitalizira telo.
+              </p>
+            </div>
+          </article>
+        </a>
+        
+        <a href="vrstemasaze.html" class="project-2" target="_blank">
+          <article class="project">
+            <img src="assets/terapeutska.jpg" alt="slika masaze" class="project-img" />
+            <div class="project-info">
+              <h4>Terapeutska masaža</h4>
+              <p>
+                smanjuje bol, upale i napetost u mišićima,
+                povećava pokretljivost i ubrzava oporavak.
+            </div>
+          </article>
+        </a>
+        
+        <a href="vrstemasaze.html" class="project-3" target="_blank">
+          <article class="project">
+            <img src="assets/sportska.jpg" alt="slika masaze" class="project-img" />
+            <div class="project-info">
+              <h4>Sportska masaža</h4>
+              <p>
+                povećava fleksibilnost mišića, smanjuje napetost
+                i bol i poboljšava sportsko izvodjenje.
+              </p>
+            </div>
+          </article>
+        </a>
+        
+        <a href="vrstemasaze.html" class="project-4" target="_blank">
+          <article class="project">
+            <img src="assets/kamenjem.jpg" alt="slika masaze" class="project-img" />
+            <div class="project-info">
+              <h4> Vulkanskim kamenjem</h4>
+              <p>
+                opušta mišiće, ublažava bol i stres, te pruža duboko opuštanje.
+              </p>
+            </div>
+          </article>
+        </a>
+        
+        <a href="vrstemasaze.html" class="project-5" target="_blank">
+          <article class="project">
+            <img src="assets/anticelulit.jpg" alt="slika masaze" class="project-img" />
+            <div class="project-info">
+              <h4>Anticelulit-ručna masaža</h4>
+              <p>
+                podstiče razgradnju masnih
+                naslaga i izlučivanje toksina i osigurava glatku kožu.
+              </p>
+            </div>
+          </article>
+        </a>
+        
+        <a href="vrstemasaze.html" class="project-6" target="_blank">
+          <article class="project">
+            <img src="assets/madero.jpg" alt="slika masaze" class="project-img" />
+            <div class="project-info">
+              <h4>Maderoterapija</h4>
+              <p>
+                smanjuje celulit i masne
+                naslage, učvršćuje i oblikuje telo.
+            </div>
+          </article>
+        </a>
+       
+    </section>
+    <section class="section-3">
+      <div class="flex">
+        <img src="assets/lotus.png" class="lotus-img" alt="image of lotus flower" />
+      </div>
+      <h1>Utisci naših klijenata</h1>
+     
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="testimonials">
+          <div class="carousel-item active">
+            <img id="carousel-image1" src="assets/osoba1.png" alt="iskustvo osobe1" />
+            <p>
+              <img src="assets/left-quote.png" class="quote-top" alt="quotes-img" />
+              Masaza je bila neverovatno opuštajuća i osvežavajuća, definitivno ću se vratiti ponovno!
+              <img src="assets/right-quote.png" class="quote-bottom" alt="quotes-img" />
+            </p>
+            <h5>Katarina Bajić</h5>
+          </div>
+          <div class="carousel-item">
+            <img id="carousel-image2" width="50px" src="assets/osoba2.png" alt="iskustvo osobe1" />
+            <p>
+              <img src="assets/left-quote.png" class="quote-top" alt="quotes-img" />
+              Terapeutska masaža je bila lek za moje telo i dušu - bila sam  potpuno preporođena nakon nje.
+              <img src="assets/right-quote.png" class="quote-bottom" alt="quotes-img" />
+            </p>
+            <h5>Smilja Ćirić</h5>
+          </div>
+          <div class="carousel-item">
+            <img id="carousel-image3" src="assets/odoba3.png" alt="iskustvo osobe1" />
+            <p>
+              <img src="assets/left-quote.png" class="quote-top" alt="quotes-img" />
+              Osećala sam se kao da sam na oblacima nakon masaze. Sve preporuke!
+              <img src="assets/right-quote.png" class="quote-bottom" alt="quotes-img" />
+            </p>
+            <h5>Jelena Stojiljković</h5>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+    
+      <div class="footer-logo">
+        <a href="#"><img src="assets/logo.png" id="footer-logo" alt=logo width="70px" /></a>
+      </div>
+      
+      <div>
+        <h4>Radno vreme</h4>
+        <p>Pon - Ned | 10:00 - 20:00</p>
+      </div>
+     
+      <div>
+        <h4>Kontakt</h4>
+        <p><img src="assets/adress.png" class="contact-img" alt="adress-img" />Obrenovićeva 124 3/4</p>
+        <p><img src="assets/telephone.png" class="contact-img" alt="phone-img" /><a
+            href="tel:+381677425262">067/7425262</a></p>
+      </div>
+     
+      <div>
+        <h4>Pratite nas:</h4>
+        <a href="https://www.instagram.com/patekar_studio/" class="footer-link" target="_blank"><img
+            src="assets/instagram.png" class="contact-img" alt="instagram-img" />Instagram</a>
+        <a href="https://www.facebook.com/savetinutricioniste/" class="footer-link" target="_blank"><img
+            src="assets/facebook.png" class="contact-img" alt="facebook-img" />Facebook</a>
+
+      </div>
+
+      <div>All rights reserved by Studio Patekar</div>
+      <div>Powered by <a href="https://jelenavasilesku.com/" target="_blank">Jelena Vasilesku</a></div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
